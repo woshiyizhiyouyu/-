@@ -1,0 +1,32 @@
+.container {
+    padding: 0;
+}
+.container .navbar a{
+    font-size: 18px;
+    color: black;
+}
+.container .navbar .collapse{
+    margin-left: 30px;
+}
+.container .navbar .collapse .navbar-nav a{
+    font-size: 14px;
+}
+.productBox{
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productBox .card{
+    margin-right: 1%;
+    margin-bottom: 15px;
+    width: 19.2%;
+}
+.productBox .card:nth-child(5n){
+    margin-right: 0;
+}
+.productBox .card .card-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
